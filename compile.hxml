@@ -1,0 +1,13 @@
+-as3 bin/ascode
+-main Main
+-debug
+-cp src
+
+--next
+
+-swf bin/swf/Main.swf
+-main Main
+-debug
+-D fdb
+-swf-header 200:200:30:FFFFFF
+-cp src
