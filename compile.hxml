@@ -9,5 +9,5 @@
 -main Main
 -debug
 -D fdb
--swf-header 200:200:30:FFFFFF
+-swf-header 500:500:30:FFFFFF
 -cp src

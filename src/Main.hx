@@ -4,8 +4,7 @@ package ;
  * 
  * @auther sipo
  */
-import interfaceDynamicTest.InterfaceDynamicTest;
-import mirrorTest.MirrorTest;
+import wave.Wave;
 import flash.events.Event;
 import flash.Lib;
 class Main
@@ -25,6 +24,6 @@ class Main
 	 */
 	public static function addedToStageHandler(event:Event):Void
 	{
-		my = new MirrorTest();
+		my = new Wave();
 	}
 }
